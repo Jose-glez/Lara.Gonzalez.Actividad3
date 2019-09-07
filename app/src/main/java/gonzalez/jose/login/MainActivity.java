@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(nombreUsuario.isEmpty() || password.isEmpty()){
                     //nombre de usuario vacio
+                    mensajito("El Usuario o Contraseña estan vacios");
                 }else {
                     if (nombreUsuario.equals("jose") && password.equals("1234")) {
                         //imprimir bienvenido
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }else {
                         //Imprimir datos erroneos
+                        mensajito("Datos Erroneos");
                     }
                 }
 
